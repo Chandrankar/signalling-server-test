@@ -4,5 +4,5 @@ $0}');
 global_ip=$(python get_global_ip.py)
 echo "global ip is $global_ip"
 echo $server_ip;
-python pythonserver.py $server_ip:$PORT;
+python signalling-server.py $server_ip:$PORT;
 sleep infinity
